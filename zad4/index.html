@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form id="myForm" action="#" method="post">
+        <label for="ime">Ime:</label>
+        <input type="text" id="ime" name="ime" required>
+        
+        <label for="prezime">Prezime:</label>
+        <input type="text" id="prezime" name="prezime" required>
+        
+        <label for="jmbg">JMBG:</label>
+        <input type="text" id="jmbg" name="jmbg" required>
+    
+        <label for="tipVozila">Red Tip vozila:</label>
+        <select id="tipVozila" name="tipVozila">
+            <option value="Motorno">Motorno</option>
+            <option value="Elektricno">Elektricno</option>
+        </select>
+    
+        <button type="submit">Potvrdi</button>
+    </form>
+
+
+    <tr id="tipVozilaRow">
+        <td>Tip vozila:</td>
+        <td>
+            <select id="tipVozila" name="tipVozila">
+                <option value="Motorno">Motorno</option>
+                <option value="Elektricno">Elektricno</option>
+            </select>
+            <p id="ekoKlasa" style="display: none;">Eko klasa</p>
+        </td>
+    </tr>
+    
+    
+    
+</body>
+</html>
